@@ -1,0 +1,20 @@
+{
+  "name": "gcloud-workshop-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systematic-chaos/gcloud-workshop.git"
+  },
+  "author": "Systematic Chaos",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.9.1",
+    "@google-cloud/firestore": "^4.15.1",
+    "@google-cloud/storage": "^5.15.3"
+  }
+}
