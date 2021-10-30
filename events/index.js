@@ -21,7 +21,7 @@ const fsStoreData = (projectId, collectionName) => {
             res.status(200).send({ externalId: documentReference.id });
         } catch (error) {
             console.error(error);
-            res.status(500).send({ error: 'Unable to store data' });
+            res.status(500).send({ error: `Unable to store ${collectionName} data.` });
         }
     };
 };
