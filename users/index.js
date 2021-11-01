@@ -5,7 +5,7 @@ import { Firestore } from '@google-cloud/firestore';
 import { Storage } from '@google-cloud/storage';
 
 const PROJECT = 'gcloudworkshop2021';
-const DATASET = 'instagrambatchstreaming';
+const DATASET = 'instagram-batch-streaming';
 const COLLECTION = 'users';
 
 const userRowBuilder = function(rowData) {
